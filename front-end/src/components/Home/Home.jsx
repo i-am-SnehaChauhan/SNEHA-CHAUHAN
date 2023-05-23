@@ -6,6 +6,7 @@ import venusImage from "../../images/venus.jpg";
 import spaceImage from "../../images/space.jpg";
 import { Typography } from "@mui/material";
 import TimeLine from "../TimeLine/TimeLine";
+
 const Home = () => {
   useEffect(() => {
     const textureLoader = new THREE.TextureLoader();
@@ -94,8 +95,29 @@ const Home = () => {
         <Typography variant="h3">TIMELINE</Typography>
         <TimeLine timelines={[1, 2, 3, 4]}/>
       </div>
-      <div className="homeSkills"></div>
+      <div className="homeSkills">
         <Typography variant="h3">SKILLS</Typography>
+        <div className = "homeCubeSkills">
+          <div className="homeCubeSkillsFaces homeCubeSkillFace1">
+            <img src="src\images\travel.jpg" alt="Face1" />
+          </div>
+          <div className="homeCubeSkillsFaces homeCubeSkillFace2">
+            <img src="C:\GITHUB Clone Repositories\SNEHA-CHAUHAN\front-end\src\images\travel.jpg" alt="Face2" />
+          </div>
+          <div className="homeCubeSkillsFaces homeCubeSkillFace3">
+            <img src="C:\GITHUB Clone Repositories\SNEHA-CHAUHAN\front-end\src\images\travel.jpg" alt="Face3" />
+          </div>
+          <div className="homeCubeSkillsFaces homeCubeSkillFace4">
+            <img src="C:\GITHUB Clone Repositories\SNEHA-CHAUHAN\front-end\src\images\travel.jpg" alt="Face4" />
+          </div>
+          <div className="homeCubeSkillsFaces homeCubeSkillFace5">
+            <img src="C:\GITHUB Clone Repositories\SNEHA-CHAUHAN\front-end\src\images\travel.jpg" alt="Face5" />
+          </div>
+          <div className="homeCubeSkillsFaces homeCubeSkillFace6">
+            <img src="C:\GITHUB Clone Repositories\SNEHA-CHAUHAN\front-end\src\images\travel.jpg" alt="Face6" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
