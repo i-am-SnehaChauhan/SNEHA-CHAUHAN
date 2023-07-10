@@ -210,7 +210,7 @@
   
   /*About*/
   .about-container {
-    display: grid;
+    /* display: grid; */
     grid-template-columns: repeat(2, 1fr);
     padding-top: 3.5rem;
     padding-bottom: 5rem;
@@ -239,6 +239,7 @@
   }
   .about-container .right-about .about-item .abt-text .large-text {
     font-size: 3rem;
+    text-align: center;
     font-weight: 700;
     color: var(--color-secondary);
   }
