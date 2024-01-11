@@ -14,5 +14,6 @@ Feel free to reach out to me through the contact information provided on the web
 
 Follow me on social media handles or platforms for regular updates on my latest projects and insights into relevant topics or industry trends.
 
+
 Thank you for visiting my portfolio website!"
 </p>
